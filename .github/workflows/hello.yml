@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: '16'
       - name: Install dependencies 
-        run: npm install  
+        run: pnpm install  
       - name: Check style
-        run: npm run eslint
+        run: pnpm eslint
   hello_world_job:
     runs-on: ubuntu-20.04
     steps:
